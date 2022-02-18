@@ -1,6 +1,6 @@
-.contact {
+.product {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(120, 181, 120);
+  background-color: rgb(249, 174, 76);
 }

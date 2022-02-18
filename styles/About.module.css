@@ -1,0 +1,6 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(184, 94, 165);
+}
