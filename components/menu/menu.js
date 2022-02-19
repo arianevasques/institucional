@@ -16,13 +16,13 @@ export default function Menu() {
           </Link>
         </li>
         <li>
-          <Link href="/contact">
-            <a>Contato</a>
+          <Link href="/product">
+            <a>Produto</a>
           </Link>
         </li>
         <li>
-          <Link href="/product">
-            <a>Produto</a>
+          <Link href="/contact">
+            <a>Contato</a>
           </Link>
         </li>
       </ul>
