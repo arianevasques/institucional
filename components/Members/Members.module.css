@@ -1,0 +1,9 @@
+.boxMembers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box img {
+  width: 300px;
+  height: 300px;
+}
