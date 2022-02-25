@@ -1,4 +1,5 @@
 import styles from "../../styles/BannerHero.module.css";
+import Link from "next/link";
 
 export default function BannerHero() {
   return (
@@ -7,7 +8,8 @@ export default function BannerHero() {
       <div className={styles.heroText}>
         <h1>Título</h1>
         <p>Descrição curta</p>
-        <a href="/product">clique aqui</a>
+        <Link href="/product">
+          <a>clique aqui</a></Link>
       </div>
     </section>
   );
