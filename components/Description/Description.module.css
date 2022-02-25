@@ -1,0 +1,33 @@
+
+.row {
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.descriptionTitle {
+  text-align: left;
+}
+.descriptionTitle h2 {
+  font-size: 5.2rem;
+  font-weight: 500;
+  line-height: .95;
+  letter-spacing: -2.54px;
+  margin-bottom: 2.4rem;
+  padding: 0px 30px;
+
+}
+
+.descriptionAbout p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  opacity: 1;
+  flex: 0 0 100%;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: left;
+  padding: 20px 30px;
+
+}
