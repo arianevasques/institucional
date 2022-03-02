@@ -7,10 +7,10 @@ export default function About() {
   return (
     <div className={styles.about}>
       <Menu></Menu>
-      <div className={styles.container}>
+      <div className="container">
         <Description></Description>
       </div>
-      <div className={styles.container}>
+      <div className="container">
         <Members></Members>
       </div>
     </div>
