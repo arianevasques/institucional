@@ -1,9 +1,39 @@
+.members {
+  margin: 30px 60px;
+}
+.membersTitle h4 {
+  /* margin: 70px, 0; */
+  margin: 80px 0;
+  font-size: 5.2rem;
+  text-align: left;
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -2.54px;
+  color: blanchedalmond;
+}
+
 .boxMembers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 92px;
+  margin-bottom: 92px;
+
+  color: rgb(255, 255, 255);
+}
+.box:nth-child(3n) {
+  margin-right: 0;
 }
 .box img {
-  width: 300px;
-  height: 300px;
+  margin: 30px 0;
+}
+.box p {
+  display: flex;
+  justify-content: center; 
 }
