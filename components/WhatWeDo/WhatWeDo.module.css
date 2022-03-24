@@ -1,0 +1,71 @@
+.whatWeDo{
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1020px;
+  height: auto;
+  display: grid;
+  padding-bottom: 90px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header h2 {
+  font-size: 55px;
+  margin: 0;
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.headerContainer p {
+  padding-right: 40px;
+}
+
+.more  {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.more a {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconArrow {
+  margin: 0 5px 0 15px;
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+.box {
+  padding-right: 50px;
+}
+.box h3 {
+  font-size: 25px;
+}
+
+.learnMore {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.learnMore a{
+  display: flex;
+  flex-direction: row;
+
+}
