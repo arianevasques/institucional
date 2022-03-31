@@ -1,0 +1,79 @@
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+  justify-content: center;
+}
+
+.txtTitle p{
+  margin-bottom: 1rem;
+}
+
+.formulary {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulary ul {
+  padding: 0;
+  align-items: center;
+}
+
+.formulary ul li {
+  list-style: none;
+}
+.txtname {
+  margin-right: 7px;
+
+}
+.txtemail {
+  margin-left: 7px;
+}
+.txtname, .txtemail {
+  width: 533px;
+  height: 55px;
+  margin-bottom: 70px;
+}
+.tel {
+  margin-right: 7px;
+}
+.company {
+  margin-left: 7px;
+}
+.tel, .company{
+  width: 533px;
+  height: 55px;
+  margin-bottom: 70px;
+}
+
+.content {
+  margin-right: 7px;
+}
+.budget {
+  margin-left: 7px;
+}
+.content, .budget {
+  width: 533px;
+  height: 55px;
+  margin-bottom: 70px
+}
+
+.txtmsg {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 70px;
+}
+
+.send {
+  width: 150px;
+  height: 70px;
+}
