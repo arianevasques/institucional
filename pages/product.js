@@ -7,7 +7,6 @@ export default function Product() {
   return (
     <div className={styles.product}>
       <Menu></Menu>
-      <h1>Product</h1>
       <BigHeader></BigHeader>
     </div>
   );

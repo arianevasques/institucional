@@ -1,7 +1,14 @@
+.bigHeader {
+  margin-bottom: 7rem;
+  margin: 0 55px 0 55px;
+}
+
 .header h2 {
   font-size: 5.2rem;
   margin: 0;
+  margin-bottom: 2.4rem;
 }
 .header p {
   margin: 0;
+  margin-bottom: 1rem;
 }
