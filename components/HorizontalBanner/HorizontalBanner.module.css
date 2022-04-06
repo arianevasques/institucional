@@ -1,0 +1,9 @@
+
+.imgBanner {
+  display: flex;
+  max-height: 300px;
+  margin-top: 50px;
+}
+.imgBanner img {
+  width: 100%;
+}
