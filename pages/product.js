@@ -4,6 +4,7 @@ import BigHeader from "../components/BigHeader/BigHeader";
 import BestFeatures from "../components/BestFeatures/BestFeatures";
 import HorizontalBanner from "../components/HorizontalBanner/HorizontalBanner";
 import TitleTextImage from "../components/TitleTextImage/TitleTextImage";
+import TextTwoTextColums from "../components/TextTwoTextColums/TextTwoTextColums";
 
 
 export default function Product() {
@@ -14,6 +15,8 @@ export default function Product() {
       <HorizontalBanner></HorizontalBanner>
       <BestFeatures></BestFeatures>
       <TitleTextImage></TitleTextImage>
+      <HorizontalBanner></HorizontalBanner>
+      <TextTwoTextColums></TextTwoTextColums>
     </div>
   );
 }

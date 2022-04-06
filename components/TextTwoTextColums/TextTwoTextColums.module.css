@@ -1,0 +1,28 @@
+.txtColums {
+  margin: 0 55px 0 55px;
+}
+
+.twoColums {
+  display: flex;
+}
+
+.txt1 h3{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.5px;
+  margin-bottom: 0;
+  margin-top: 90px;
+}
+
+.twoColums .txt2 {
+  width: 100%;
+  padding: 20px 0;
+  padding-right: 30px
+}
+.twoColums .txt3 {
+  width: 100%;
+  padding: 20px 0 ;
+  padding-left: 30px;
+
+}
