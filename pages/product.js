@@ -3,6 +3,7 @@ import Menu from "../components/menu/menu"
 import BigHeader from "../components/BigHeader/BigHeader";
 import BestFeatures from "../components/BestFeatures/BestFeatures";
 import HorizontalBanner from "../components/HorizontalBanner/HorizontalBanner";
+import TitleTextImage from "../components/TitleTextImage/TitleTextImage";
 
 
 export default function Product() {
@@ -12,6 +13,7 @@ export default function Product() {
       <BigHeader></BigHeader>
       <HorizontalBanner></HorizontalBanner>
       <BestFeatures></BestFeatures>
+      <TitleTextImage></TitleTextImage>
     </div>
   );
 }
