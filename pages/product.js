@@ -1,6 +1,7 @@
 import styles from "../styles/Product.module.css";
 import Menu from "../components/menu/menu"
 import BigHeader from "../components/BigHeader/BigHeader";
+import BestFeatures from "../components/BestFeatures/BestFeatures";
 
 
 export default function Product() {
@@ -8,6 +9,8 @@ export default function Product() {
     <div className={styles.product}>
       <Menu></Menu>
       <BigHeader></BigHeader>
+
+      <BestFeatures></BestFeatures>
     </div>
   );
 }
