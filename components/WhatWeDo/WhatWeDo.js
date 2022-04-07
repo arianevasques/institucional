@@ -66,7 +66,7 @@ export default function WhatWeDo() {
               <a href="">Learn More 
               <BsArrowRight className={styles.iconArrow}></BsArrowRight>
               </a>
-            </div>
+            </div> 
           </div>
         </div>
       </div>

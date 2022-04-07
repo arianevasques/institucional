@@ -16,7 +16,7 @@ export default function WhereWeShine() {
               preencher os espaços e fazer testes. Assim, dá para testar o
               layout e a formatação antes de utilizar com conteúdo real.
             </p>
-            <div className={styles.more}>
+            <div className={styles.learnMore}>
               <a href="">
                 Learn More
                 <BsArrowRight className={styles.iconArrow}></BsArrowRight>

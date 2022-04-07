@@ -19,10 +19,24 @@
   font-size: 50px;
   margin-bottom: 0;
 }
+@media (max-width: 1024px) {
+  .heroText h1{
+    font-size: 30px;
+    margin: 0;
+  }
+}
 .heroText p {
   font-size: 25px;
   padding: 0;
 }
+@media (max-width: 1024px) {
+  .heroText p {
+    font-size: 20px;
+    margin: 0;
+    padding: 13px;
+  }
+}
+
 .heroText a {
   border: 1px solid rgb(255, 250, 250);
   border-radius: 5px;
@@ -32,4 +46,9 @@
 }
 .heroText a:hover {
   background-color: rgb(255, 7, 214);
+}
+@media (max-width: 1024px) {
+  .heroText a {
+    font-size: 13px;
+  }
 }

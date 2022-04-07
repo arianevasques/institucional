@@ -5,6 +5,12 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+@media (max-width: 1024px) {
+  .whereWeShine{
+    justify-content: flex-start;
+    padding: 25px 25px;
+  }
+}
 
 .container {
   max-width: 1020px;
@@ -13,6 +19,11 @@
 .header h2 {
   font-size: 55px;
   margin: 0;
+}
+@media (max-width: 1024px) {
+  .header h2 {
+    font-size: 40px;
+  }
 }
 
 .headerContainer {
@@ -24,14 +35,29 @@
   padding-right: 40px;
   margin: 0;
 }
+@media (max-width: 1024px) {
+  .headerContainer {
+    flex-direction: column;
+  }
+  .headerContainer p {
+    padding-right: 0;
+    padding: 16px 0;
+    font-size: 16px;
+  }
+}
 
-.more {
-  width: 30%;
+.learnMore {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.more a {
+@media (max-width: 1024px) {
+  .learnMore {
+    justify-content: flex-start;
+  }
+}
+.learnMore a {
   display: flex;
   flex-direction: row;
 }
