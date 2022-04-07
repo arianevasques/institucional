@@ -6,6 +6,12 @@
   margin-right: 30px;
   margin-left: 30px;
 }
+@media (max-width: 1024px) {
+  .row {
+    margin: 0;
+    padding: 0 25px;
+  }
+}
 
 .descriptionTitle {
   text-align: left;
@@ -18,7 +24,12 @@
   letter-spacing: -2.54px;
   margin-bottom: 2.4rem;
   padding: 0px 30px;
-
+}
+@media (max-width: 1024px) {
+  .descriptionTitle h2 {
+    padding: 0;
+    font-size: 3.5rem;
+  }
 }
 
 .descriptionAbout p{
@@ -32,4 +43,9 @@
   text-align: left;
   padding: 20px 30px;
 
+}
+@media (max-width: 1024px) {
+  .descriptionAbout p {
+    padding: 0;
+  }
 }
