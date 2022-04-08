@@ -12,7 +12,7 @@ export default function ContactForm() {
             menos)!
           </p>
         </div>
-        <form className={styles.formulary}>
+         <form className={styles.formulary}>
           <ul>
             <li className={styles.txt}>
               <input
@@ -75,7 +75,7 @@ export default function ContactForm() {
             </li>
             <button className={styles.send}>Enviar</button>
           </ul>
-        </form>
+        </form> 
       </div>
     </div>
   );

@@ -5,6 +5,13 @@
   margin-right: 55px;
   margin-left: 55px;
 }
+@media (max-width: 1024px) {
+  .container {
+    padding: 0;
+    margin: 0 25px;
+  }
+}
+
 
 .row {
   width: 100%;
@@ -13,24 +20,53 @@
   padding: 20px 30px;
   justify-content: center;
 }
+@media (max-width: 1024px) {
+  .row {
+    padding: 0;
+    justify-content: flex-start;
+  }
+}
+
 
 .txtTitle p{
   margin-bottom: 1rem;
 }
+@media (max-width: 1024px) {
+  .txtTitle p {
+    font-size: 15px;
+  }
+}
+
 
 .formulary {
   display: flex;
   flex-direction: column;
 }
-
 .formulary ul {
   padding: 0;
   align-items: center;
 }
-
 .formulary ul li {
   list-style: none;
 }
+@media (max-width: 1024px) {
+  .formulary ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulary ul li {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .txt {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .txtname {
   margin-right: 7px;
 
@@ -43,6 +79,18 @@
   height: 55px;
   margin-bottom: 70px;
 }
+@media (max-width: 1024px) {
+  .txtemail {
+    margin-left: 0;
+  }
+  .txtname, .txtemail {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
 .tel {
   margin-right: 7px;
 }
@@ -54,6 +102,26 @@
   height: 55px;
   margin-bottom: 70px;
 }
+@media (max-width: 1024px) {
+  .company {
+    margin-left: 0;
+  }
+  .tel, .company {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 .content {
   margin-right: 7px;
@@ -66,14 +134,50 @@
   height: 55px;
   margin-bottom: 70px
 }
+@media (max-width: 1024px) {
+  .budget {
+    margin-left: 0;
+  }
+  .content, .budget {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 1px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .mensagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .txtmsg {
   width: 100%;
   height: 100px;
   margin-bottom: 70px;
 }
+@media (max-width: 1024px) {
+  .txtmsg {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 1px;
+  }
+}
 
 .send {
   width: 150px;
-  height: 70px;
+  height: 70px
+}
+@media (max-width: 1024px) {
+  .send {
+    text-align: center;
+    width: 60px;
+    height: 30px
+
+  }
 }
