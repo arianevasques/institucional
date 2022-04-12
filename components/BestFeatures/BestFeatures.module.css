@@ -2,6 +2,12 @@
   margin: 0 55px 0 55px;
   padding: 89px 0 89px 0;
 }
+@media (max-width: 1024px) {
+  .bestFeatures {
+    margin: 0 25px 0 25px;
+    padding: 35px 0 35px 0;
+  }
+}
 
 .txtFeatures h3 {
   text-align: left;
@@ -15,11 +21,24 @@
   margin-bottom: 1rem;
   margin-top: 0;
 }
+@media (max-width: 1024px) {
+  .txtFeatures h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+  }
+}
 
 .container{
   display: flex;
   flex-direction: row;  
 }
+@media (max-width: 1024px) {
+  .container{
+    flex-wrap: wrap;
+  }
+}
+
 
 .specialtiesIcon{
   display: flex;
@@ -35,4 +54,9 @@
   font-size: 1.3rem;
   padding-top: 10px;
   margin: 0;
+}
+@media (max-width: 1024px) {
+  .specialtiesIcon{
+    width: 50%;
+  }
 }

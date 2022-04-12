@@ -7,3 +7,10 @@
 .imgBanner img {
   width: 100%;
 }
+@media (max-width: 1024px) {
+  .imgBanner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+}
