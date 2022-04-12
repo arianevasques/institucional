@@ -2,7 +2,7 @@ import styles from "../ContactForm/ContactForm.module.css";
 
 export default function ContactForm() {
   return (
-    <div className={styles.container}>
+    <div className={styles.contactForm}>
       <div className={styles.row}>
         <div className={styles.txtTitle}>
           <p>

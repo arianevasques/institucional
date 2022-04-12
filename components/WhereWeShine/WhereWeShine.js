@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function WhereWeShine() {
   return (
     <section className={styles.whereWeShine}>
-      <div className={styles.container}>
+      <div>
         <div className={styles.header}>
           <header>
             <h2>Where We Shine</h2>

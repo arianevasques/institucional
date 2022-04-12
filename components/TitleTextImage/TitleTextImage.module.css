@@ -1,6 +1,3 @@
-.titleTextImage{
-  margin: 55px 55px 0 55px;
-}
 @media (max-width: 1024px) {
   .titleTextImage{
     margin: 0px 25px 0 25px;
@@ -28,6 +25,7 @@
 
 .imgb2b img {
   width: 500px;
+  margin-left: 20px;
 }
 @media (max-width: 1024px) {
   .imgb2b img  {

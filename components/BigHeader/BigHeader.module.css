@@ -1,7 +1,3 @@
-.bigHeader {
-  margin-bottom: 7rem;
-  margin: 0 55px 0 55px;
-}
 @media (max-width: 1024px) {
   .bigHeader {
     padding: 25px 25px;

@@ -8,7 +8,9 @@ export default function Contact() {
     <div className={styles.contact}>
       <Menu></Menu>
       <BannerHero></BannerHero>
-      <ContactForm></ContactForm>
+      <div className="container">
+        <ContactForm></ContactForm>
+      </div>
     </div>
   );
 }

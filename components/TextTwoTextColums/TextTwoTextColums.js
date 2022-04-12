@@ -3,7 +3,7 @@ import styles from "../TextTwoTextColums/TextTwoTextColums.module.css";
 export default function TextTwoTextColums() {
   return (
     <section className={styles.txtColums}>
-        <div className={styles.container2}>
+        <div className={styles.txt}>
           <div className={styles.txt1}>
             <h3> Microsoft Dynamics</h3>
           </div>

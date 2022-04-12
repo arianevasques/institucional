@@ -1,5 +1,4 @@
 .bestFeatures {
-  margin: 0 55px 0 55px;
   padding: 89px 0 89px 0;
 }
 @media (max-width: 1024px) {
@@ -29,12 +28,12 @@
   }
 }
 
-.container{
+.icons{
   display: flex;
   flex-direction: row;  
 }
 @media (max-width: 1024px) {
-  .container{
+  .icons{
     flex-wrap: wrap;
   }
 }
@@ -44,7 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 15px 15px 15px;
+  padding: 25px 0px;
 }
 .specialtiesIcon img {
   width: 50%;

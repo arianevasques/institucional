@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function WhatWeDo() {
   return (
     <div className={styles.whatWeDo}>
-      <div className={styles.container}>
+      <div>
         <div className={styles.header}>
           <h2>What We Do</h2>
           <div className={styles.headerContainer}>

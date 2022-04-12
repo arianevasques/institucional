@@ -15,7 +15,7 @@ export default function BestFeatures() {
           que nos especializamos:
         </p>
       </div>
-      <div className={styles.container}>
+      <div className={styles.icons}>
         <div className={styles.specialtiesIcon}>
           <img src="icon-b2b-1.jpeg" />
           <p>B2B</p>
