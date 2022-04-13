@@ -16,9 +16,9 @@ export default function Home() {
       <div className="container">
         <WhereWeShine></WhereWeShine>
       </div>
-      <div className="container">
+
         <Footer></Footer>
-      </div>
+
     </div>
   );
 }
