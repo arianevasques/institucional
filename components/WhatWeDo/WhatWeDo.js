@@ -1,29 +1,33 @@
 import styles from "../WhatWeDo/WhatWeDo.module.css";
 import { BsArrowRight } from "react-icons/bs";
+import { WhatWeDoMain, Header, Box } from "../WhatWeDo/WhatWeDo.styled";
 
 export default function WhatWeDo() {
   return (
-    <div className={styles.whatWeDo}>
+    <WhatWeDoMain>
       <div>
-        <div className={styles.header}>
+        <Header>
           <h2>What We Do</h2>
-          <div className={styles.headerContainer}>
+          <div>
             <p>
               O Google Tradutor é um serviço virtual gratuito da subsidiaria
               Google da Alphabet Inc. de tradução instantânea de textos e
               websites. A empresa introduziu o software em 2006, inicialmente
               suportando apenas os idiomas inglês e árabe.
             </p>
-            <div className={styles.more}>
-              <a href="">More 
-              <BsArrowRight className={styles.iconArrow}></BsArrowRight>
+            <div className="more">
+              <a href="">
+                More
+                <div className="iconArrow">
+                  <BsArrowRight></BsArrowRight>
+                </div>
               </a>
             </div>
           </div>
-        </div>
+        </Header>
 
-        <div className={styles.content}>
-          <div className={styles.box}>
+        <div className="content">
+          <Box>
             <h3>Box 1</h3>
             <p>
               Texto dissertativo é um formato de escrita que busca defender uma
@@ -32,13 +36,16 @@ export default function WhatWeDo() {
               exemplos e quaisquer outros elementos que sejam capazes de
               sustentar a tese apresentada.
             </p>
-            <div className={styles.learnMore}>
-              <a href="">Learn More 
-              <BsArrowRight className={styles.iconArrow}></BsArrowRight>
+            <div className="learnMore">
+              <a href="">
+                Learn More
+                <div className="iconArrow">
+                  <BsArrowRight></BsArrowRight>
+                </div>
               </a>
             </div>
-          </div>
-          <div className={styles.box}>
+          </Box>
+          <Box>
             <h3>Box 2</h3>
             <p>
               Texto dissertativo é um formato de escrita que busca defender uma
@@ -47,13 +54,16 @@ export default function WhatWeDo() {
               exemplos e quaisquer outros elementos que sejam capazes de
               sustentar a tese apresentada.
             </p>
-            <div className={styles.learnMore}>
-              <a href="">Learn More 
-              <BsArrowRight className={styles.iconArrow}></BsArrowRight>
+            <div className="learnMore">
+              <a href="">
+                Learn More
+                <div className="iconArrow">
+                  <BsArrowRight></BsArrowRight>
+                </div>
               </a>
             </div>
-          </div>
-          <div className={styles.box}>
+          </Box>
+          <Box>
             <h3>Box 3</h3>
             <p>
               Texto dissertativo é um formato de escrita que busca defender uma
@@ -62,14 +72,17 @@ export default function WhatWeDo() {
               exemplos e quaisquer outros elementos que sejam capazes de
               sustentar a tese apresentada.
             </p>
-            <div className={styles.learnMore}>
-              <a href="">Learn More 
-              <BsArrowRight className={styles.iconArrow}></BsArrowRight>
+            <div className="learnMore">
+              <a href="">
+                Learn More
+                <div className="iconArrow">
+                  <BsArrowRight></BsArrowRight>
+                </div>
               </a>
-            </div> 
-          </div>
+            </div>
+          </Box>
         </div>
       </div>
-    </div>
+    </WhatWeDoMain>
   );
 }
