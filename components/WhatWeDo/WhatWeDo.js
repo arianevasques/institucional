@@ -1,4 +1,3 @@
-import styles from "../WhatWeDo/WhatWeDo.module.css";
 import { BsArrowRight } from "react-icons/bs";
 import { WhatWeDoMain, Header, Box } from "../WhatWeDo/WhatWeDo.styled";
 
