@@ -1,17 +1,19 @@
 import styles from "../Footer/Footer.module.css";
+import { FooterMain, Content, SocialLinks } from "../Footer/Footer.styled";
+
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <FooterMain>
       <div className="container">
-        <div className={styles.contentFooter}>
-          <div className={styles.infos}>
+        <Content>
+          <div className="infos">
             <h4>Uma agência de desenvolvimento WEB na América Latina</h4>
             <p>adoissofthouse@gmail.com</p>
             <p>&copy; 2022 A2 Soft House</p>
           </div>
 
-          <div className={styles.socialLinks}>
+          <SocialLinks>
             <div className={styles.links}>
               <ul>
                 <li>
@@ -28,9 +30,9 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
+          </SocialLinks>
+        </Content>
       </div>
-    </footer>
+    </FooterMain>
   );
 }
