@@ -1,4 +1,4 @@
-import styles from "../Footer/Footer.module.css";
+// import styles from "../Footer/Footer.module.css";
 import { FooterMain, Content, SocialLinks } from "../Footer/Footer.styled";
 
 
@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
 
           <SocialLinks>
-            <div className={styles.links}>
+            <div className="links">
               <ul>
                 <li>
                   <a href="">LinkedIn.</a>
