@@ -13,12 +13,12 @@ export const WhatWeDoMain = styled.div`
 
   .content {
     display: flex;
-}
-    @media (max-width: 1024px) {
-      .content {
-        flex-direction: column;
+  }
+  @media (max-width: 1024px) {
+    .content {
+      flex-direction: column;
     }
-}
+  }
 `;
 
 export const Header = styled.div`
@@ -99,17 +99,16 @@ export const Box = styled.div`
     display: flex;
     padding-top: 40px;
     padding-bottom: 30px;
-  }
+
     @media (max-width: 1024px) {
-      .learnMore {
-        padding: 0;
-      }
-  }
-  
-  a {
-      display: flex;
-      flex-direction: row;
+      padding: 0;
     }
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+  }
 
   .iconArrow {
     margin: 0 5px 0 15px;

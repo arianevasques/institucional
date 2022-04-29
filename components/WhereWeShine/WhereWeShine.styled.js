@@ -7,10 +7,8 @@ export const WhereWeShineMain = styled.div`
   padding-bottom: 50px;
 
   @media (max-width: 1024px) {
-    .WhereWeShineMain {
-      justify-content: flex-start;
-      padding: 25px 25px;
-    }
+    justify-content: flex-start;
+    padding: 25px 25px;
   }
 `;
 
@@ -36,26 +34,27 @@ export const Header = styled.div`
     @media (max-width: 1024px) {
       flex-direction: column;
     }
+  }
 
-    p {
-    }
+  p {
     @media (max-width: 1024px) {
       padding-right: 40px;
       font-size: 16px;
     }
   }
+
   .learnMore {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  }
-  @media (max-width: 1024px) {
-    .learnMore {
+
+    @media (max-width: 1024px) {
       justify-content: flex-start;
     }
   }
-  .learnMore a {
+
+  a {
     display: flex;
     flex-direction: row;
   }
@@ -64,4 +63,5 @@ export const Header = styled.div`
     margin: 0 5px 0 15px;
     display: flex;
   }
+  
 `;
