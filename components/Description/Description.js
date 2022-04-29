@@ -1,12 +1,13 @@
-import styles from "../Description/Description.module.css";
+import { DescriptionMain, Title, Content } from "../Description/Description.styled";
+
 
 export default function Description() {
   return (
-    <div className={styles.row}>
-      <div className={styles.descriptionTitle}>
+    <DescriptionMain>
+      <Title>
         <h2>Sala grande, equipe pequena</h2>
-      </div>
-      <div className={styles.descriptionAbout}>
+      </Title>
+      <Content>
         <p>
           Impulsionada por uma equipe de liderança poderosa com mais de 30 anos
           de experiência em marketing estratégico e design criativo, a Big Room
@@ -17,7 +18,7 @@ export default function Description() {
           projeto, podemos nos concentrar em criar a melhor experiência e
           entregar os melhores resultados.
         </p>
-      </div>
-    </div>
+      </Content>
+    </DescriptionMain>
   );
 }
