@@ -1,17 +1,17 @@
-import styles from "../BigHeader/BigHeader.module.css";
+import { BigHeaderMain, Titulo, Description } from "../BigHeader/BigHeader.styled";
 
 export default function BigHeader() {
   return (
-    <section className={styles.bigHeader}>
-      <div className={styles.header}>
-        <header>
-          <h2>Where is Shine</h2>
-          <p>
-            Soluções de marketing técnicas e funcionais inovadoras para qualquer
-            problema.
-          </p>
-        </header>
-      </div>
-    </section>
+    <BigHeaderMain>
+      <Titulo>
+        <h2>Where is Shine</h2>
+      </Titulo>
+      <Description>
+        <p>
+          Soluções de marketing técnicas e funcionais inovadoras para qualquer
+          problema.
+        </p>
+      </Description>
+    </BigHeaderMain>
   );
 }
