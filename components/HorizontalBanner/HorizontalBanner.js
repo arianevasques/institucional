@@ -1,11 +1,9 @@
-import styles from "../HorizontalBanner/HorizontalBanner.module.css";
+import { Banner } from "../HorizontalBanner/HorizontalBanner.styled";
 
 export default function HorizontalBanner() {
   return (
-    <section className={styles.banner}>
-      <div className={styles.imgBanner}>
+    <Banner>
         <img src="nebulosa.jpeg"></img>
-      </div>
-    </section>
+    </Banner>
   );
 }
