@@ -1,9 +1,9 @@
-import styles from "../BestFeatures/BestFeatures.module.css";
+import { BestFeaturesMain, Content, Icons } from "../BestFeatures/BestFeatures.styled";
 
 export default function BestFeatures() {
   return (
-    <section className={styles.bestFeatures}>
-      <div className={styles.txtFeatures}>
+    <BestFeaturesMain>
+      <Content>
         <h3>Trazemos marcas para fora das sombras e para a luz</h3>
         <p>
           É raro encontrar profissionais de marketing que falem sua língua e
@@ -14,25 +14,25 @@ export default function BestFeatures() {
           exclusivos e expandir seus negócios. Aqui estão algumas das áreas em
           que nos especializamos:
         </p>
-      </div>
-      <div className={styles.icons}>
-        <div className={styles.specialtiesIcon}>
+      </Content>
+      <Icons>
+        <div className="imageIcon">
           <img src="icon-b2b-1.jpeg" />
           <p>B2B</p>
         </div>
-        <div className={styles.specialtiesIcon}>
+        <div className="imageIcon">
           <img src="icon-dynamics-1.jpeg" />
           <p>Microsoft Dynamics</p>
         </div>
-        <div className={styles.specialtiesIcon}>
+        <div className="imageIcon">
           <img src="icon-business-applications-1.jpeg" />
           <p>Aplicativos de negócios</p>
         </div>
-        <div className={styles.specialtiesIcon}>
+        <div className="imageIcon">
           <img src="icon-ecommerce-1.jpeg" />
           <p>comércio eletrônico</p>
         </div>
-      </div>
-    </section>
+      </Icons>
+    </BestFeaturesMain>
   );
 }
