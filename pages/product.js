@@ -5,6 +5,7 @@ import BestFeatures from "../components/BestFeatures/BestFeatures";
 import HorizontalBanner from "../components/HorizontalBanner/HorizontalBanner";
 import TitleTextImage from "../components/TitleTextImage/TitleTextImage";
 import TextTwoTextColums from "../components/TextTwoTextColums/TextTwoTextColums";
+import Footer from "../components/Footer/Footer";
 
 export default function Product() {
   return (
@@ -23,6 +24,9 @@ export default function Product() {
       <HorizontalBanner></HorizontalBanner>
       <div className="container">
         <TextTwoTextColums></TextTwoTextColums>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );
