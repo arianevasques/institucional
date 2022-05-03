@@ -1,9 +1,9 @@
 import Link from "next/link";
-import styles from "../../styles/Menu.module.css";
+import { MenuMain } from "../Menu/Menu.styled";
 
 export default function Menu() {
   return (
-    <nav className={styles.menu}>
+    <MenuMain>
       <ul>
         <li>
           <Link href="/">
@@ -26,6 +26,6 @@ export default function Menu() {
           </Link>
         </li>
       </ul>
-    </nav>
+    </MenuMain>
   );
 }
