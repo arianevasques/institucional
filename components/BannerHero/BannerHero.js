@@ -1,16 +1,17 @@
-import styles from "../../styles/BannerHero.module.css";
 import Link from "next/link";
+import { BannerHeroMain, HeroText } from "../BannerHero/BannerHero.styled";
 
 export default function BannerHero() {
   return (
-    <section className={styles.bannerHero}>
+    <BannerHeroMain>
       <img src="./bannerhero.jpeg"></img>
-      <div className={styles.heroText}>
+      <HeroText>
         <h1>Título</h1>
         <p>Descrição curta</p>
         <Link href="/product">
-          <a>clique aqui</a></Link>
-      </div>
-    </section>
+          <a>clique aqui</a>
+        </Link>
+      </HeroText>
+    </BannerHeroMain>
   );
 }
