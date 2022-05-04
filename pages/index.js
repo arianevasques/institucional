@@ -11,14 +11,26 @@ export default function Home() {
       <Menu></Menu>
       <BannerHero></BannerHero>
       <div className="container">
-        <WhatWeDo></WhatWeDo>
+        <WhatWeDo
+          title={"Nossa Comunidade"}
+          moreText={"Entrar"}
+          headerText={
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+          box1Title={'Ttle Box 1'}
+          box2Title={'Ttle Box 2'}
+          box3Title={'Ttle Box 3'}
+          box1Content={"Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veion ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+          box2Content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolnim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+          box3Content={"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+          boxMoreText={'Leia Mais'}
+        />
       </div>
       <div className="container">
         <WhereWeShine></WhereWeShine>
       </div>
 
-        <Footer></Footer>
-
+      <Footer></Footer>
     </div>
   );
 }
