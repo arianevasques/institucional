@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Member from "../Member/Member";
 
-import { MembersMain, Title, BoxMembers, Box } from "../Members/Members.styled";
+import { MembersMain, Title, BoxMembers } from "../Members/Members.styled";
 
 export default function Members(props) {
   return (
