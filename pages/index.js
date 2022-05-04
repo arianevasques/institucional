@@ -27,7 +27,11 @@ export default function Home() {
         />
       </div>
       <div className="container">
-        <WhereWeShine></WhereWeShine>
+        <WhereWeShine
+          title={"Onde estamos"}
+          moreText={"O Gerador de Texto Lorem Ipsum pode ser utilizado para você que \n\r está desenvolvendo seu projeto e precisa de texto aleatório para \n\r preencher os espaços e fazer testes. Assim, dá para testar o \n\r layout e a formatação antes de utilizar com conteúdo real."}
+          learnMore={"Leia Mais"}
+        />
       </div>
 
       <Footer></Footer>
