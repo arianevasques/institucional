@@ -13,7 +13,10 @@ export default function Product() {
     <div className={styles.product}>
       <Menu></Menu>
       <div className="container">
-        <BigHeader></BigHeader>
+        <BigHeader
+          title={"Where is Shine"}
+          description={"Soluções de marketing técnicas e funcionais inovadoras para qualquer problema."}
+        />
       </div>
       <HorizontalBanner></HorizontalBanner>
       <div className="container">
