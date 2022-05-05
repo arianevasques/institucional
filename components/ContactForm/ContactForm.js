@@ -9,7 +9,7 @@ import {
   Send,
 } from "../ContactForm/ContactForm.styled";
 
-export default function ContactForm(props) {
+export default function ContactForm() {
   return (
     <ContactFormMain>
       <Content>
