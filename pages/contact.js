@@ -14,6 +14,11 @@ export default function Contact() {
         contact={"Contato"}
       />
       <BannerHero></BannerHero>
+      <p>
+        Se você estiver pronto para conhecer nossa equipe e ver como podemos
+        ajudar seu programa de marketing, preencha o formulário abaixo. Um dos
+        membros da equipe se conectará com você dentro de 24 horas (ou menos)!
+      </p>
       <div className="container">
         <ContactForm></ContactForm>
       </div>
