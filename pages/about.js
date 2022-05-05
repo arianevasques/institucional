@@ -17,12 +17,18 @@ export default function About() {
         />
       </div>
       <div className="container">
-        <Members
-        title={"Conheça nossa equipe"}
-        />
+        <Members title={"Conheça nossa equipe"} />
       </div>
       <div>
-        <Footer></Footer>
+        <Footer
+          title={"Uma agência de desenvolvimento WEB na América Latina"}
+          email={"adoissofthouse@gmail.com"}
+          copy={"&copy; 2022 A2 Soft House"}
+          socialMedia1={"LinkedIn."}
+          socialMedia2={"Facebook."}
+          socialMedia3={"Instagram."}
+          socialMedia4={"Twitter"}
+        />
       </div>
     </div>
   );

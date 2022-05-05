@@ -1,32 +1,31 @@
 // import styles from "../Footer/Footer.module.css";
 import { FooterMain, Content, SocialLinks } from "../Footer/Footer.styled";
 
-
-export default function Footer() {
+export default function Footer(props) {
   return (
     <FooterMain>
       <div className="container">
         <Content>
           <div className="infos">
-            <h4>Uma agência de desenvolvimento WEB na América Latina</h4>
-            <p>adoissofthouse@gmail.com</p>
-            <p>&copy; 2022 A2 Soft House</p>
+            <h4>{props.title}</h4>
+            <p>{props.email}</p>
+            <p>{props.copy}</p>
           </div>
 
           <SocialLinks>
             <div className="links">
               <ul>
                 <li>
-                  <a href="">LinkedIn.</a>
+                  <a href={""}>{props.socialMedia1}</a>
                 </li>
                 <li>
-                  <a href="">Facebook.</a>
+                  <a href={""}>{props.socialMedia2}</a>
                 </li>
                 <li>
-                  <a href="">Instagram.</a>
+                  <a href={""}>{props.socialMedia3}</a>
                 </li>
                 <li>
-                  <a href="">Twitter.</a>
+                  <a href={""}>{props.socialMedia4}</a>
                 </li>
               </ul>
             </div>
