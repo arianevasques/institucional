@@ -35,7 +35,6 @@ export default function Product() {
           icon3Label={"Aplicativos de negócios"}
           icon4={"icon-ecommerce-1.jpeg"}
           icon4Label={"comércio eletrônico"}
-
         />
       </div>
       <div className="container">
@@ -51,9 +50,15 @@ export default function Product() {
             "Construir engajamento e transformar oportunidades em clientes pode ser um desafio na indústria B2B. Podemos ajudar a simplificar esse processo e ajudá-lo a criar clientes para toda a vida."
           }
           sectionTitle2={"Marketing e comunicação de conteúdo B2B direcionado"}
-          sectionText2={"Com uma profunda compreensão da jornada do comprador B2B, podemos ajudá-lo a personalizar sua estratégia de conteúdo e alinhar seus esforços para educar, atrair e converter as pessoas certas."}
-          sectionTitle3={"Estratégias digitas orientadas a nichos e sites otimizados"}
-          sectionText3={"Entender seu público e setor é apenas metade da batalha. Podemos ajudá-lo a identificar palavras-chave, melhorar a visibilidade online e atrair as empresas certas para o seu site."}
+          sectionText2={
+            "Com uma profunda compreensão da jornada do comprador B2B, podemos ajudá-lo a personalizar sua estratégia de conteúdo e alinhar seus esforços para educar, atrair e converter as pessoas certas."
+          }
+          sectionTitle3={
+            "Estratégias digitas orientadas a nichos e sites otimizados"
+          }
+          sectionText3={
+            "Entender seu público e setor é apenas metade da batalha. Podemos ajudá-lo a identificar palavras-chave, melhorar a visibilidade online e atrair as empresas certas para o seu site."
+          }
           image={"b2b.jpeg"}
         />
       </div>
@@ -79,9 +84,17 @@ export default function Product() {
           boxMoreText={"Leia Mais"}
         />
       </div>
-      <HorizontalBanner></HorizontalBanner>
+      <HorizontalBanner image={"nebulosa.jpeg"} />
       <div className="container">
-        <TextTwoTextColums></TextTwoTextColums>
+        <TextTwoTextColums
+          title={"Microsoft Dynamics"}
+          colum1={
+            "Então, você revende o Microsoft Dynamics 365 Business Central, Finanças, Suprimentos, Vendas, Aplicativos personalizados ou complementos – mas o que o diferencia? Para se destacar efetivamente no Microsoft Dynamics, você precisará de uma equipe familiarizada com os produtos, o público, o canal do parceiro e outros detalhes do mercado de nuvem em evolução. Nós somos essas pessoas."
+          }
+          colum2={
+            "Com mais de 60 anos de experiência combinada em vendas, marketing e rede no canal da Microsoft, temos a experiência para fazer seu parceiro Dynamics ou ISV crescer. Desde conteúdo técnico e vertical atraente de ponta, conhecimento em ERP e aplicativos de negócios, know-how de envio de AppSource, até eventos do setor e insights internos sobre o próximo movimento do mercado - podemos ajudá-lo a crescer e ficar à frente da curva."
+          }
+        />
       </div>
       <div>
         <Footer></Footer>

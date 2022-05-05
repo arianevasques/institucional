@@ -36,13 +36,17 @@ export const Colums = styled.div`
     padding: 20px 0;
     padding-right: 30px;
 
-    &:nth-child(2n) {
-    padding-right: 0;
-    padding-left: 30; }
-  
-  @media (max-width: 1024px) {
-    padding: 0;
+    @media (max-width: 1024px) {
+      padding: 0;
+    }
 
+    &:nth-child(2n) {
+      padding-right: 0;
+      padding-left: 30;
+    }
+
+    br {
+      margin: 5px 0;
     }
   }
 `;
