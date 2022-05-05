@@ -20,15 +20,6 @@ export const Content = styled.div`
   }
 `;
 
-export const Description = styled.div`
-  p {
-    margin-bottom: 1rem;
-
-    @media (max-width: 1024px) {
-      font-size: 15px;
-    }
-  }
-`;
 
 export const Formulary = styled.div`
   display: flex;

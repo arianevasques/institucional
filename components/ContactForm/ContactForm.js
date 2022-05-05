@@ -9,18 +9,10 @@ import {
   Send,
 } from "../ContactForm/ContactForm.styled";
 
-export default function ContactForm() {
+export default function ContactForm(props) {
   return (
     <ContactFormMain>
       <Content>
-        <Description>
-          <p>
-            Se você estiver pronto para conhecer nossa equipe e ver como podemos
-            ajudar seu programa de marketing, preencha o formulário abaixo. Um
-            dos membros da equipe se conectará com você dentro de 24 horas (ou
-            menos)!
-          </p>
-        </Description>
         <Formulary>
           <ul>
             <li>
