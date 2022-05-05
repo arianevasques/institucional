@@ -11,7 +11,12 @@ import Footer from "../components/Footer/Footer";
 export default function Product() {
   return (
     <div className={styles.product}>
-      <Menu></Menu>
+      <Menu
+      home={"Home"}
+      about={"Sobre"}
+      product={"Produto"}
+      contact={"Contato"}
+      />
       <div className="container">
         <BigHeader
           title={"Where is Shine"}

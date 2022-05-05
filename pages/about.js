@@ -7,7 +7,12 @@ import Footer from "../components/Footer/Footer";
 export default function About() {
   return (
     <div className={styles.about}>
-      <Menu></Menu>
+      <Menu
+        home={"Home"}
+        about={"Sobre"}
+        product={"Produto"}
+        contact={"Contato"}
+      />
       <div className="container">
         <Description
           title={"Sala grande, equipe pequena"}

@@ -7,7 +7,12 @@ import Footer from "../components/Footer/Footer";
 export default function Contact() {
   return (
     <div className={styles.contact}>
-      <Menu></Menu>
+      <Menu
+        home={"Home"}
+        about={"Sobre"}
+        product={"Produto"}
+        contact={"Contato"}
+      />
       <BannerHero></BannerHero>
       <div className="container">
         <ContactForm></ContactForm>
