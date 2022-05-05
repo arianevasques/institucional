@@ -1,9 +1,9 @@
 import { Banner } from "../HorizontalBanner/HorizontalBanner.styled";
 
-export default function HorizontalBanner() {
+export default function HorizontalBanner(props) {
   return (
     <Banner>
-        <img src="nebulosa.jpeg"></img>
+        <img src={props.image}></img>
     </Banner>
   );
 }

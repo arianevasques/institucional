@@ -8,6 +8,7 @@ import TextTwoTextColums from "../components/TextTwoTextColums/TextTwoTextColums
 import WhatWeDo from "../components/WhatWeDo/WhatWeDo";
 import Footer from "../components/Footer/Footer";
 
+
 export default function Product() {
   return (
     <div className={styles.product}>
@@ -18,9 +19,20 @@ export default function Product() {
           description={"Soluções de marketing técnicas e funcionais inovadoras para qualquer problema."}
         />
       </div>
-      <HorizontalBanner></HorizontalBanner>
+      <HorizontalBanner image={'nebulosa.jpeg'} />
       <div className="container">
-        <BestFeatures></BestFeatures>
+        <BestFeatures
+        title={"Trazemos marcas para fora das sombras e para a luz"}
+        content={"É raro encontrar profissionais de marketing que falem sua língua e conheçam as nuances do seu setor. Mas na Big Room, esse é o nosso maior patrimônio! Nossa equipe incomparável de profissionais demarketing, designers e desenvolvedores talentosos ajudou clientes de todos os tamanhos e setores a resolver seus desafios de marketing exclusivos e expandir seus negócios. Aqui estão algumas das áreas em que nos especializamos:"}
+        icon1={"icon-b2b-1.jpeg"}
+        icon1Label={"B2B"}
+        icon2={"icon-dynamics-1.jpeg"}
+        icon2Label={"Microsoft Dynamics"}
+        icon3={"icon-business-applications-1.jpeg"}
+        icon3Label={"Aplicativos de negócios"}
+        icon4={"icon-ecommerce-1.jpeg"}
+        icon4Label={"comércio eletrônico"}
+        />
       </div>
       <div className="container">
         <TitleTextImage></TitleTextImage>
