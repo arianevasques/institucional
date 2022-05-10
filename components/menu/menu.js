@@ -1,30 +1,35 @@
-import Link from "next/link";
 import { MenuMain } from "../Menu/Menu.styled";
 
 export default function Menu(props) {
+  const retornoDaAPI = [
+    {
+      link: "/",
+      name: "Home",
+    },
+    {
+      link: "/about",
+      name: "Sobre",
+    },
+    {
+      link: "/product",
+      name: "Produto",
+    },
+    {
+      link: "/contact",
+      name: "Contato",
+    },
+  ];
+
   return (
     <MenuMain>
       <ul>
-        <li>
-          <Link href="/">
-            <a>{props.home}</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a>{props.about}</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/product">
-            <a>{props.product}</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            <a>{props.contact}</a>
-          </Link>
-        </li>
+        {retornoDaAPI.map((item, index) => {
+          return (
+            <li key={index}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          );
+        })}
       </ul>
     </MenuMain>
   );
