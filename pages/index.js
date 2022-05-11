@@ -9,10 +9,24 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Menu
-        home={"Home"}
-        about={"Sobre"}
-        product={"Produto"}
-        contact={"Contato"}
+        data={[
+          {
+            link: "/",
+            name: "Home",
+          },
+          {
+            link: "/about",
+            name: "Sobre",
+          },
+          {
+            link: "/product",
+            name: "Produto",
+          },
+          {
+            link: "/contact",
+            name: "Contato",
+          },
+        ]}
       />
       <BannerHero></BannerHero>
       <div className="container">
@@ -50,10 +64,24 @@ export default function Home() {
         title={"Uma agência de desenvolvimento WEB na América Latina"}
         email={"adoissofthouse@gmail.com"}
         copy={"&copy; 2022 A2 Soft House"}
-        socialMedia1={"LinkedIn."}
-        socialMedia2={"Facebook."}
-        socialMedia3={"Instagram."}
-        socialMedia4={"Twitter"}
+        data={[
+          {
+            link: "/facebook",
+            name: "Facebook",
+          },
+          {
+            link: "/twitter",
+            name: "Twitter",
+          },
+          {
+            link: "/linkedin",
+            name: "LinkedIn",
+          },
+          {
+            link: "/instagram",
+            name: "Instagram",
+          },
+        ]}
       />
     </div>
   );

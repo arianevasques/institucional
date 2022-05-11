@@ -8,10 +8,26 @@ export default function About() {
   return (
     <div className={styles.about}>
       <Menu
-        home={"Home"}
-        about={"Sobre"}
-        product={"Produto"}
-        contact={"Contato"}
+        data={
+          [
+            {
+              link: "/",
+              name: "Home",
+            },
+            {
+              link: "/about",
+              name: "Sobre",
+            },
+            {
+              link: "/product",
+              name: "Produto",
+            },
+            {
+              link: "/contact",
+              name: "Contato",
+            },
+          ]
+        }
       />
       <div className="container">
         <Description
@@ -29,10 +45,24 @@ export default function About() {
           title={"Uma agência de desenvolvimento WEB na América Latina"}
           email={"adoissofthouse@gmail.com"}
           copy={"&copy; 2022 A2 Soft House"}
-          socialMedia1={"LinkedIn."}
-          socialMedia2={"Facebook."}
-          socialMedia3={"Instagram."}
-          socialMedia4={"Twitter"}
+          data={[
+            {
+              link: "/facebook",
+              name: "Facebook",
+            },
+            {
+              link: "/twitter",
+              name: "Twitter",
+            },
+            {
+              link: "/linkedin",
+              name: "LinkedIn",
+            },
+            {
+              link: "/instagram",
+              name: "Instagram",
+            },
+          ]}
         />
       </div>
     </div>
