@@ -2,24 +2,6 @@
 import { FooterMain, Content, SocialLinks } from "../Footer/Footer.styled";
 
 export default function Footer(props) {
-  const retornoDaAPI = [
-    {
-      link: "/facebook",
-      name: "Facebook",
-    },
-    {
-      link: "/twitter",
-      name: "Twitter",
-    },
-    {
-      link: "/linkedin",
-      name: "LinkedIn",
-    },
-    {
-      link: "/instagram",
-      name: "Instagram",
-    },
-  ];
 
   return (
     <FooterMain>
@@ -33,7 +15,7 @@ export default function Footer(props) {
 
           <SocialLinks>
             <ul>
-              {retornoDaAPI.map((itemDaArray, posicaoDoItemNaArray) => {
+              {props.data.map((itemDaArray, posicaoDoItemNaArray) => {
                 return (
                   <li key={posicaoDoItemNaArray}>
                     <a href={itemDaArray.link}>{itemDaArray.name}</a>
